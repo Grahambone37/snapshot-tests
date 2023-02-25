@@ -17,14 +17,12 @@ export default function GitHubCard() {
     }, [])
 
     return (
-        <Card>
-            <Card.Img src={gitImage} style={{
-                height: '50px',
-                width: '50px',
-                marginLeft: '48%'
-            }} />
-            <h1>{gitUsername}</h1>
-            <h2>{gitBio}</h2>
+        <Card style={{ width: '13em' }}>
+            <Card.Img variant='top' src={gitImage} />
+            <Card.Body>
+                <Card.Title>{gitUsername}</Card.Title>
+                <Card.Text>{gitBio}</Card.Text>
+            </Card.Body>
         </Card>
     )
 }

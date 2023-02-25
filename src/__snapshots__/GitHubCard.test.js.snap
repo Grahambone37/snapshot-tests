@@ -3,23 +3,29 @@
 exports[`Github profile snapshot 1`] = `
 <div
   className="card"
+  style={
+    Object {
+      "width": "13em",
+    }
+  }
 >
   <img
-    className="card-img"
+    className="card-img-top"
     src="Git Image"
-    style={
-      Object {
-        "height": "50px",
-        "marginLeft": "48%",
-        "width": "50px",
-      }
-    }
   />
-  <h1>
-    username
-  </h1>
-  <h2>
-    Git Bio
-  </h2>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      username
+    </div>
+    <p
+      className="card-text"
+    >
+      Git Bio
+    </p>
+  </div>
 </div>
 `;

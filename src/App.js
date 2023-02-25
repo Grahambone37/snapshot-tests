@@ -5,7 +5,13 @@ function App() {
   return (
     <div className="App">
       <h1>POTATOES</h1>
-      <GitHubCard />
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+        <GitHubCard />
+      </div>
     </div>
   );
 }
